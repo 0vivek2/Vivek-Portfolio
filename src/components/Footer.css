@@ -1,0 +1,8 @@
+.footer {
+  background: #0077ff; /* Blue */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;          /* ✅ remove unwanted gap */
+  border-top: 2px solid #0055aa;
+}

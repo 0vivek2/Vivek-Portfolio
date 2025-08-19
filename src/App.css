@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f9f9f9; 
+}
+
+main {
+  flex: 1;
+}
+
+
+footer {
+  margin-top: auto;
+}
+
