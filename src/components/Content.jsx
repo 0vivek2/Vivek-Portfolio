@@ -11,8 +11,8 @@ function Content() {
       My focus is on creating clean UI and smooth user experiences.
     </p>
     <div className="home-buttons">
-      <a href="https://0vivek2.github.io/Vivek-Portfolio/projects" className="btn">View My Work</a>
-      <a href="https://0vivek2.github.io/Vivek-Portfolio/contact" className="btn secondary">Contact Me</a>
+      <a href="/projects" className="btn">View My Work</a>
+      <a href="/contact" className="btn secondary">Contact Me</a>
     </div>
     <div className="social-links">
       <a href="https://github.com/0vivek2" target="_blank">GitHub</a>
