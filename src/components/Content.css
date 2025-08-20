@@ -1,12 +1,16 @@
 .content {
-  height: 100vh;
-  background: linear-gradient(135deg, #0077ff, #6a0dad);
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
   padding: 20px;
+
+  /* Background animation */
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #17ead9, #f9f871);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
 
 .home-content {
@@ -76,23 +80,28 @@
   }
 }
 .content {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
   padding: 20px;
-  position: relative;
-  overflow: hidden;
 
-  background: linear-gradient(-45deg, #0077ff, #6a0dad, #ff0080, #00e0ff);
+  /* Background animation */
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #17ead9, #f9f871);
   background-size: 400% 400%;
-  animation: gradientMove 15s ease infinite;
+  animation: gradientBG 15s ease infinite;
 }
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* Animation keyframes */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

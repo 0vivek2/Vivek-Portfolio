@@ -6,7 +6,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
-    <BrowserRouter basename='/Vivek-Portfolio/'>
+    <BrowserRouter  basename='/Vivek-Portfolio/'>
       <App />
     </BrowserRouter>
   

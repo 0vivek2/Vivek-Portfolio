@@ -1,6 +1,6 @@
 .contact {
   padding: 60px 20px;
-  background: #efefef;
+  background: #0f172a;;
   text-align: center;
   overflow: hidden;
 }
@@ -8,11 +8,11 @@
 .contact-title {
   font-size: 2.2rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #dcdbdb;
 }
 
 .contact-subtitle {
-  color: #666;
+  color: #dcdbdb;
   margin-bottom: 40px;
 }
 
@@ -77,7 +77,7 @@
 
 .contact-info p {
   margin: 8px 0;
-  color: #444;
+  color: #dcdbdb;
 }
 
 .contact-info a {

@@ -5,7 +5,7 @@ function Projects() {
     {
       title: "Portfolio Website",
       description: "A responsive personal portfolio built with React and Vite.",
-      link: "https://vivek-portfoli-o.netlify.app/",
+      link: "https://vivek-portf0lio.netlify.app/",
     },
     {
       title: "Currency Converter",

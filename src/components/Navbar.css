@@ -1,51 +1,62 @@
 .navbar {
-  position: sticky; /* stays on top */
-  top: 0;
-  width: 100%;
-  background: #0077ff;
-  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
+  padding: 15px 30px;
+  background: #0f172a;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.nav-logo {
-  color: white;
-  font-size: 1.6rem;
+.logo {
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
+/* Default nav links (desktop) */
 .nav-links {
-  list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 20px;
 }
 
-.nav-links li a {
+.nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
-  color: #ffdd00;
+.nav-links a:hover {
+  color: #38bdf8;
 }
 
-/* Responsive */
+/* Hamburger hidden by default */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* 🔥 Mobile view */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
-    background: #0066cc;
+    background: #1e293b;
     position: absolute;
     top: 60px;
     right: 0;
-    padding: 20px;
+    width: 200px;
+    padding: 15px;
     display: none;
   }
 
   .nav-links.active {
-    display: flex;
+    display: flex; /* show menu when active */
+  }
+
+  .menu-toggle {
+    display: block;
   }
 }

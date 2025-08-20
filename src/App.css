@@ -18,7 +18,83 @@ main {
 }
 
 
+/* ============================= */
+/* 📱 Tablets (up to 1024px) */
+/* ============================= */
+@media (max-width: 1024px) {
+  body {
+    font-size: 15px; /* scale text slightly */
+  }
+
+  .projects {
+    padding: 30px 15px;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about img {
+    width: 60%;
+    margin: 10px auto;
+  }
+}
+
+/* ============================= */
+/* 📱 Mobiles (up to 768px) */
+/* ============================= */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+/* ============================= */
+/* 📱 Small Phones (up to 480px) */
+/* ============================= */
+@media (max-width: 480px) {
+  .projects {
+    padding: 20px 10px;
+  }
+
+  .project-card {
+    padding: 12px;
+  }
+
+  .project-card h2 {
+    font-size: 1rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .about img {
+    width: 80%;
+  }
+
+  nav a {
+    display: block;
+    padding: 8px;
+  }
+}
+
 footer {
   margin-top: auto;
 }
+
 

@@ -9,28 +9,11 @@
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
+  margin-top: auto
+  
 }
 
-
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.05), transparent 60%),
-              radial-gradient(circle at 80% 80%, rgba(255,255,255,0.05), transparent 60%);
-  animation: gradientMove 15s infinite alternate;
-  z-index: 0;
-}
-
-@keyframes gradientMove {
-  0% { transform: translate(0,0); }
-  100% { transform: translate(30px, -30px); }
-}
-
-/* .about-content {
+.about-content {
  position: relative;
   z-index: 1;
   text-align: center;
@@ -38,7 +21,7 @@
   max-width: 1000px;
   width: 100%;
  
-} */
+}
  .about-content h2 {
   text-align: center;
   font-size: 2.5rem;
